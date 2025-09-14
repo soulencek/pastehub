@@ -1,0 +1,52 @@
+# Go build artifacts
+/bin/
+/build/
+/*.exe
+/*.exe~
+/*.dll
+/*.so
+/*.dylib
+
+# Go test cache
+*.test
+*.out
+
+# Go module files
+/go.sum
+
+# Dependency directories (if vendoring)
+vendor/
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Environment files
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Coverage
+coverage.out
+
+# Temporary files
+*.tmp
+*.temp
+
+# Ignore certs (if you have TLS certificates)
+*.crt
+*.key
